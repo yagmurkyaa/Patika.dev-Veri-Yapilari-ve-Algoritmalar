@@ -86,3 +86,26 @@ Proje 3
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+CEVAP: Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+İlk elemanı kök (root) olarak belirleyelim: Kök = 7
+
+Kökün sağına ve soluna bakarak sırayla elemanları ekleyelim:
+
+5, 1, 8, 3, 6, 0, 9, 4, 2 elemanları sırasıyla 7'nin sağına eklenir.
+5, 1, 8 elemanları 7'nin sağına eklenir.
+5 elemanı 8'in soluna eklenir.
+BST Aşamaları:
+
+Kök: 7
+Kök'ün sağı: 8
+8'in solu: 5
+5'in sağı: 6
+5'in solu: 1
+1'in sağı: 3
+1'in solu: 0
+0'ın sağı: 2
+8'in sağı: 9
+Kök'ün solu: Boş (null)
+BST ağacı bu aşamalardan sonra yukarıda verilen dizinin elemanlarına karşılık gelir.
