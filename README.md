@@ -33,6 +33,28 @@ Soru 4:
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
 Cevap 4 : 
+1.Adım: En küçük elemanı bulup ilk elemanla yer değiştirme
+
+En küçük elemanı bulmak için diziyi tararız ve 2'yi buluruz.
+2'yi dizinin ilk elemanı olan 7 ile yer değiştiririz.
+Dizi: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+2.Adım: İkinci en küçük elemanı bulup ikinci elemanla yer değiştirme
+
+İkinci en küçük elemanı bulmak için dizinin ikinci elemanından sonraki kısmı tararız ve 3'ü buluruz.
+3'ü dizinin ikinci elemanı olan 3 ile yer değiştiririz (aslında değişiklik olmaz).
+Dizi: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+3.Adım: Üçüncü en küçük elemanı bulup üçüncü elemanla yer değiştirme
+
+Üçüncü en küçük elemanı bulmak için dizinin üçüncü elemanından sonraki kısmı tararız ve 4'ü buluruz.
+4'ü dizinin üçüncü elemanı olan 5 ile yer değiştiririz.
+Dizi: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+44.Adım: Dördüncü en küçük elemanı bulup dördüncü elemanla yer değiştirme
+
+Dördüncü en küçük elemanı bulmak için dizinin dördüncü elemanından sonraki kısmı tararız ve 5'i buluruz.
+5'i dizinin dördüncü elemanı olan 8 ile yer değiştiririz.
+Dizi: [2, 3, 4, 5, 7, 9, 8, 15, 6]
+Bu adımlar, Selection Sort algoritması kullanılarak verilen dizinin ilk dört elemanının sıralanma sürecini göstermektedir.
+
 
 Merge Sort Projesi
 Proje 2
@@ -58,3 +80,9 @@ Her iki parçayı da aynı Merge Sort algoritmasıyla sıralamaya devam ediyoruz
 
 [11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
 Merge Sort'un Big-O gösterimi O(n log n) şeklindedir. Bu, Merge Sort'un n elemanlı bir diziyi sıralamak için en kötü durumda O(n log n) karşılaştırma ve yer değiştirme işlemi gerçekleştireceği anlamına gelir. Bu algoritma, büyük veri setlerini sıralamak için etkili bir seçenektir.
+
+Binary Search Tree Projesi
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
