@@ -33,3 +33,28 @@ Soru 4:
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
 Cevap 4 : 
+
+Merge Sort Projesi
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+Cevap:
+İlk adım olarak, diziyi iki eşit parçaya bölüyoruz:
+[16, 21, 11] ve [8, 12, 22]
+
+Her iki parçayı da aynı Merge Sort algoritmasıyla sıralamaya devam ediyoruz:
+
+İlk parça olan [16, 21, 11] için sıralama adımları:
+
+[16, 21, 11] -> [16, 11, 21]
+[16, 11, 21] -> [11, 16, 21]
+İkinci parça olan [8, 12, 22] için sıralama adımları:
+
+[8, 12, 22] -> [8, 12, 22]
+Şimdi, sıralanmış bu iki parçayı birleştiriyoruz:
+
+[11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+Merge Sort'un Big-O gösterimi O(n log n) şeklindedir. Bu, Merge Sort'un n elemanlı bir diziyi sıralamak için en kötü durumda O(n log n) karşılaştırma ve yer değiştirme işlemi gerçekleştireceği anlamına gelir. Bu algoritma, büyük veri setlerini sıralamak için etkili bir seçenektir.
